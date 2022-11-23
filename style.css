@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+/*body{
+    background-color: #2A3132;
+
+}*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#navigation{
+    background-color: #2A3132;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.2% 5%;
+    font-family: 'Baloo Tammudu 2', cursive !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 100;
+}
+#logo {
+    font-family: 'Unica One', cursive !important;
+    font-weight: 900 !important;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin-right: auto;
+}
+.links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.navLiFonts{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+.links li a{
+    transition: all 0.3s ease 0s;
+}
+.links li a:hover{
+    color: #90AFC5;
+    transition: all 0.2s ease 0s;
+}
+.contactsBut{
+    padding: 5px 30px;
+    padding-top: 10px;
+    margin-left: 20px;
+    background-color: #336B87;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.2s ease 0s;
+    font-family: 'Baloo Tammudu 2', cursive !important;
+    font-size: 15px;
+    color: white;
+}
+.contactsBut:hover{
+    background-color: #90AFC5;
+    color: black;
+}
+#welcome{
+    background-image: url("https://stoneridgepartners.com/wp-content/uploads/2020/07/office-buildings-city-skyscrapers-ss-1920.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+#welcome::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2A3132;
+    opacity: .7;
+    z-index: -1;
+}
+.welcomeContainer{
+    display: flex;
+    margin-left: 10%;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: xxx-large;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+}
+.welcomeContainer p{
+    font-size: 50%;
+    font-family: 'Barlow', sans-serif !important;
+}
+
+#projects{
+    padding: 8% 10% 2% 10%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif !important;
+}
+
+#proj_tit{
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 110%;
+}
+
+.cardRow {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.featuredCard {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 3px 4px rgb(150, 150, 150);
+}
+
+.featuredCard:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s ease 0s;
+    box-shadow: 7px 9px 9px rgb(150, 150, 150);
+}
+
+.card_inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px){
+    .cardRow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20%;
+    }
+    .card, 
+    .featuredCard {
+        width: 90%;
+        border: 1px solid black;
+        /* min-height: 90%; */
+        padding: 10%;
+        border-radius: 15px;
+        background-color: white;
+    }
+    #pro-img{
+        width: 100%;
+    }
+}
+
+#pro-img{
+    width: 100%;
+}
+
+#open_but{
+    margin-top: 2.5%;
+    padding: 1%;
+    width: 100%;
+    font-family: 'Barlow', sans-serif !important;
+    font-size: 115%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #336B87;
+    color: white;
+}
+#open_but:hover{
+    background-color: #90AFC5;
+    color: black;
+    transition: all 0.2s ease 0s;
+}
+
+#openweb_but{
+    font-family: 'Barlow', sans-serif !important;
+    border-radius: 7px;
+    padding: 2%;
+    border: 1px solid black;
+    width: 100%;
+}
+#openweb_but:hover{
+    background-color: rgb(199, 199, 199);
+    transition: all 0.2s ease 0s;
+}
+
+/* .card,
+.featuredCard {
+    width: 300rem;
+    border: 1px solid black;
+    min-height: 20rem;
+    padding: 5%;
+    border-radius: 15px;
+} */
+
+.card,
+.featuredCard {
+    width: 80%;
+    border: 1px solid black;
+    /* min-height: 80%; */
+    padding: 3%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.contentCluster{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentCluster a{
+    text-decoration: none;
+    color: blue;
+}
+
+#experience{
+    padding: 10% 20% 2% 20%;
+    font-family: 'Barlow', sans-serif !important;
+}
+#experience a{
+    text-decoration: none;
+    color: blue;
+}
+#experience h4{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 120%;
+}
+
+#resume{
+    padding: 10% 20% 2% 20%;
+    font-family: 'Barlow', sans-serif !important;
+}
+
+#embed_resume{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.timeline{
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    padding-top: 8%;
+}
+.timeline_component{
+    margin: 0% 7% 15% 7%;
+}
+.timeline_component_bg{
+    padding: 5%;
+    background-color: rgba(219, 219, 219, 0.2);
+    box-shadow: 0 0 5px rgb(201, 201, 201);
+    border-radius: 20px;
+    border: 0.5px solid rgb(163, 163, 163);
+}
+.timeline_component_bg:hover{
+    background-color: rgba(219, 219, 219, 0.5);
+    transition: all 0.2s ease 0s;
+}
+#timeline_but{
+    font-family: 'Barlow', sans-serif !important;
+    width: 100%;
+    padding: 1.5%;
+    border-radius: 20px;
+    border: 0.5px solid rgb(163, 163, 163);
+    background-color: #336B87;
+    color: white;
+}
+#timeline_but:hover{
+    background-color: #90AFC5;
+    color: black;
+    transition: all 0.2s ease 0s;
+}
+.timeline_component_bottom{
+    margin-bottom: 0;
+}
+.timeline_date_right{
+    text-align: right;
+}
+.timeline_middle{
+    position: relative;
+    background-color: #336B87;
+}
+.timeline_point{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: #336B87;
+    /* border-radius: 50%; */
+}
+.timeline_point_bottom{
+    top: initial;
+    bottom: 0;
+}
+.timeline_title, .timeline_p{
+    line-height: 1.5;
+}
+
+
+#xinyan_img{
+    width: 25%;
+    padding-right: 5%;
+}
+#about{
+    padding: 15% 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif !important;
+}
+#fix{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+
+#contactInfo{
+    background-color: #2A3132;
+    padding: 10% 10%;
+    color: white;
+    font-family: 'Barlow', sans-serif !important;
+    text-align: center;
+}
+
+#linkedInLogo, #gitHubLogo{
+    width: 15%;
+    border-radius: 10px;
+}
+
+#linkedin, #gitHub{
+    text-decoration: none;
+    color: white;
+    padding: 2.5%;
+}
+
+.contactLinks{
+    display: flex;
+    justify-content: center;
+    padding: 3% 1%;
+}

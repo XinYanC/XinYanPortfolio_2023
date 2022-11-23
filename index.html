@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"/>-->
+    <title id="title">XinYan's Portfolio</title>
+</head>
+<body>
+    <nav id="navigation">
+        <a href="#welcome" id="logo"><h1>XinYan's Portfolio</h1></a>
+        <ul class="links">
+            <li><a href="#projects" class="navLiFonts">Projects</a></li>
+            <li><a href="#experience" class="navLiFonts">Experience</a></li>
+            <li><a href="#about" class="navLiFonts">About Me</a></li>
+        </ul>
+        <a href="#contactInfo" id="contacts"><button class="contactsBut">Contact Me</button></a>
+    </nav>
+    <header>
+        <section id="welcome">
+            <div class="welcomeContainer">
+                <h1 class="hello">Hello,</h1>
+                <h3 class="hello">I am XinYan</h1>
+                <p class="hello">Welcome to my Portfolio</h2>
+            </div>
+        </section>
+    </header>
+
+    <section id="projects">
+        <div id="proj_tit">
+            <h1>Projects</h1><br>
+            <h3>Featured</h3>
+        </div>
+        <section>
+            <div class="cardRow">
+                <!-- <a href="https://cssi-project1-yashsgoofypets.xinyanc.repl.co/" target="_blank" class="featuredCard"><div class="card_inside">
+                    <div class="contentCluster">
+                        <h3 class="strong">Yash's Goofy Pet Store</h3><br>
+                        <p>An online pet store project with Ashley. The website features a functioning adoption form with adapting prices in the cart.</p><br>
+                        <p><strong>Languages used:</strong>  HTML, CSS, JavaScript</p><br>
+                        <img id="pro-img" src="https://lh3.googleusercontent.com/fM-BZ8Es2WdlQF12pGE-LAukJkBI3AUNVsbMN2FnPinh5pEqTmEOGR5pJMTR6PesVcuTqwOmjtzjVi_gbJasOpgZoJgwpDtKs0g-jZnEnKjJnZQeSWXSKN3esmCFxEi18F-F0f-M=w2400" alt="Yash's Goofy Pet Store">
+                    </div>
+                    <br><button id="openweb_but">Open Website</button>
+                </div></a>
+                <a href="#" target="_blank" class="featuredCard"><div class="card_inside">
+                    <div class="contentCluster">
+                        <h3 class="strong">The Google Banana Store</h3><br>
+                        <p>Inspired by the movie, "Minions: The Rise of Gru," this website is a online banana store, featuring different bananas up for sell.</p><br>
+                        <p><strong>Languages used:</strong>  HTML, CSS</p><br>
+                        <img id="pro-img" src="https://lh3.googleusercontent.com/PzQJyujIqfBHjyn9Zpg37NLIfvANJfMlMFFS47NM65vcynVGHWIfr5ubxkftSyHEuRhN20VRHGaiQyVmxlThFNR5yWYC-Tbnza-GmBgkNTKs-QtWj85ux0d2fOccuVhQTNmYC0af=w2400" alt="Google Banana Store">
+                    </div>
+                    <br><button id="openweb_but">Open Website</button>
+                </div></a>
+                <a href="https://cssi-day1-bananastore.xinyanc.repl.co/" target="_blank" class="featuredCard"><div class="card_inside">
+                    <div class="contentCluster">
+                        <h3 class="strong">The Google Banana Store</h3><br>
+                        <p>Inspired by the movie, "Minions: The Rise of Gru," this website is a online banana store, featuring different bananas up for sell.</p><br>
+                        <p><strong>Languages used:</strong>  HTML, CSS</p><br>
+                        <img id="pro-img" src="https://lh3.googleusercontent.com/PzQJyujIqfBHjyn9Zpg37NLIfvANJfMlMFFS47NM65vcynVGHWIfr5ubxkftSyHEuRhN20VRHGaiQyVmxlThFNR5yWYC-Tbnza-GmBgkNTKs-QtWj85ux0d2fOccuVhQTNmYC0af=w2400" alt="Google Banana Store">
+                    </div>
+                    <br><button id="openweb_but">Open Website</button>
+                </div></a> -->
+
+                <!-- <div class="featuredCard card_inside">
+                    <div class="contentCluster">
+                        <h3 class="strong">Yash's Goofy Pet Store</h3><br>
+                        <p>An online pet store project with <a href="https://www.linkedin.com/in/ashley-la-rotonda-1971b41b8/"  target="_blank">Ashley</a>. The website features a functioning adoption form with adapting prices in the cart. Template: <a href="https://restylianos.github.io/bulma-tropico-template/" target="_blank">Bulma Tropico 🍍</a>.</p><br>
+                        <p><strong>Languages used:</strong>  HTML, CSS, JavaScript</p><br>
+                        <a href="https://cssi-project1-yashsgoofypets.xinyanc.repl.co/" target="_blank"><img id="pro-img" src="https://lh3.googleusercontent.com/fM-BZ8Es2WdlQF12pGE-LAukJkBI3AUNVsbMN2FnPinh5pEqTmEOGR5pJMTR6PesVcuTqwOmjtzjVi_gbJasOpgZoJgwpDtKs0g-jZnEnKjJnZQeSWXSKN3esmCFxEi18F-F0f-M=w2400" alt="Yash's Goofy Pet Store">
+                    </div>
+                    <br><button id="openweb_but">Open Website</button></a>
+                </div>
+                <div class="featuredCard card_inside">
+                    <div class="contentCluster">
+                        <h3 class="strong">Sushi Maker</h3><br>
+                        <p>A survey website that allows users to make their own sushi. The website takes different inputs.</p><br>
+                        <p><strong>Languages used:</strong>  HTML, CSS</p><br>
+                        <a href="https://xinyanc.github.io/Sushi_Maker/" target="_blank"><img id="pro-img" src="https://lh3.googleusercontent.com/aUeMLFWOZVApFthhdG0Oj0QfPTNI9YK-M3BvEDwbMjtEw_LPihy8eUR60ccHFW02447I8WYMUGWP3YbaD65PRsg6S8CxftTMKCMhqbX62Vhuo9MGEeB-jdrbzcvxeeuacJEpXk2N=w2400" alt="Sushi Maker">
+                    </div>
+                    <br><button id="openweb_but">Open Website</button></a>
+                </div> -->
+                <div class="featuredCard card_inside">
+                    <div class="contentCluster">
+                        <h3 class="strong">Rewind</h3><br>
+                        <p>A relaxation page with <a href="https://www.linkedin.com/in/ashley-la-rotonda-1971b41b8/"  target="_blank">Ashley</a> and <a href="https://www.linkedin.com/in/lolia-kalada-halliday-69810a203/" target="_blank">Lolia</a>. The website features a working Javascript timer in the local storage, functional settings page, embedded games, and random advice generator API.</p><br>
+                        <p><strong>Languages used:</strong>  HTML, CSS, JavaScript, API, Local Storage</p><br>
+                        <a href="https://xinyanc.github.io/Rewind/" target="_blank"><img id="pro-img" src="https://lh3.googleusercontent.com/tTyMOuTZCaTRGkPYnluCU3fNWshoDOKWjRl1d-p4JXyoiKGYd9prjd2_ca5TEd_jcA4V5qsQzp84Um1RY5t-TdksXqYc72sN7HMV5dmPXl4wgvgPS9TRfaw9kUyO5FK_BoU7j27JVA=w2400" alt="Rewind">
+                    </div>
+                    <br><button id="openweb_but">Open Website</button></a>
+                </div>
+                <div class="featuredCard card_inside">
+                    <div class="contentCluster">
+                        <h3 class="strong">Travel Revival</h3><br>
+                        <p>An traveler's page project with <a href="https://www.linkedin.com/in/aileenrangel?trk=public_profile_samename-profile&original_referer=https%3A%2F%2Fwww.linkedin.com%2Fin%2Faileen-rangel-90963b141" target="_blank">Aileen</a>. The website features modal pages and a functioning shopping cart that adjusts the total price from items selected into the cart. Template: <a href="https://bulmatemplates.github.io/bulma-templates/templates/band.html"  target="_blank">Band Template</a>.</p><br>
+                        <p><strong>Languages used:</strong>  HTML, CSS, JavaScript</p><br>
+                        <a href="https://xinyanc.github.io/TravelRevival/" target="_blank"><img id="pro-img" src="https://lh3.googleusercontent.com/Wq0KxIGgj_5Pa-tppETFhsVj0RRkPwXnOT-SwOdWwsQimHcfA3jiBJKQMyZZAD2vRIK8VZWzVwGWIDet4teWqo0yGM2ts2n4IbnvFv7EonD2gbcc5BD1M7rwrWBKuP6dZ5sr5DqJ=w2400" alt="The Travel Revival">
+                    </div>
+                    <br><button id="openweb_but">Open Website</button></a>
+                </div>
+                <div class="featuredCard card_inside">
+                    <div class="contentCluster">
+                        <h3 class="strong">Yan's Slang Guessing Game!</h3><br>
+                        <p>An popular slang guessing game featuring responsive level bars. Utilized the <a href="https://bulma.io/"  target="_blank">Bulma Library</a>.</p><br>
+                        <p><strong>Languages used:</strong>  HTML, CSS, JavaScript</p><br>
+                        <a href="https://cssi-day7-topslangs.xinyanc.repl.co/index.html" target="_blank"><img id="pro-img" src="https://lh3.googleusercontent.com/aYJ569tjU0AZONj_VRGWRgv7Fv0s-qSFig1ElITEsC3WgEgSZ1ptp-367qWK97EprFYwW0kkherCKz2X-FYHcp88bs4x2PuBpwlWBC6Uv-oLMKCFjk8VVMXJHyZZR9kdh0wROg4I=w2400" alt="Yan's Slang Guessing Game">
+                    </div>
+                    <br><button id="openweb_but">Open Website</button></a>
+                </div>
+                <!-- <div class="featuredCard card_inside">
+                    <div class="contentCluster">
+                        <h3 class="strong">The Google Banana Store</h3><br>
+                        <p>Inspired by the movie, "Minions: The Rise of Gru," this website is an online banana store, featuring different bananas up for sell.</p><br>
+                        <p><strong>Languages used:</strong>  HTML, CSS</p><br>
+                        <a href="https://cssi-day1-bananastore.xinyanc.repl.co/" target="_blank"><img id="pro-img" src="https://lh3.googleusercontent.com/XDrkhi9UV1dm5REDYCdR0Be3I9ypMUjs_zY1H_HzSv7hckRN8OTrY_95GFRfHmilV41DmhRbJy7z-6howmEXQZLCJXRLgSn9sdiRJQKk4mFXuZjMZYozPLwyEgXKm7sjr8Ahgdeb=w2400" alt="Google Banana Store">
+                    </div>
+                    <br><button id="openweb_but">Open Website</button></a>
+                </div> -->
+
+            </div>
+        </section>
+        <a href="projects.html" target="_blank"><button id="open_but">View All</button></a>
+    </section>
+
+
+    <section id="experience">
+        <h1>Experiences</h1>
+        <div class="timeline">
+            <!-- 2 dates -->
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date_right">September 2022</div>
+            </div>
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <h3 class="timeline_title">New York University</h3>
+                <p class="timeline_p"><strong>Major:</strong> Mechanical Engineering</p><br>
+                <p class="timeline_p"><strong>Relevant courses:</strong> Problem Solving And Programming I (Python), <a href="projects.html">Introduction to Engineering and Design</a>, Calculus I for Engineers</p>
+                <p class="timeline_p"><strong>Relevant credits:</strong> AP Computer Science A (Java)</p><br>
+                <a href="projects.html"><button id="timeline_but">2022 - Expected 2026</button></a>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <h3 class="timeline_title">Kode With Klossy: Mobile Development</h3>
+                <p class="timeline_p">Completed a 2-week introductory mobile app development program on Swift, iOS Application developer XCode, and GitHub. Delivered an extensive final project developing an iOS application on mental health while collaborating with other scholars.</p>
+                <p><strong>Languages: </strong>Swift, Storyboard, XCode</p><br>
+                <a href="projects.html"><button id="timeline_but">View Projects</button></a>
+            </div>
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_component">
+                <div class="timeline_date">August 2022</div>
+            </div>
+            <!-- 2 dates -->
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date_right">July 2022</div>
+            </div>
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <h3 class="timeline_title">Coding Ninjas Internship: Coding Sensei</h3>
+                <p class="timeline_p">Learned to code in Scratch and Javascript by creating 52+ working application. Assisted with teaching other students through answering questions and collaborating with other interns. Pinpoint coding bugs and explain to students how to debug the application.</p>
+                <p><strong>Languages: </strong>Scratch, HTML, CSS, JavaScript</p><br>
+                <a href="projects.html"><button id="timeline_but">Browse Projects</button></a>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <h3 class="timeline_title">Google Computer Science Summer Institute (CSSI)</h3>
+                <p class="timeline_p">Participated in an intensive project-based HTML/CSS and JavaScript curriculum <a href="https://drive.google.com/file/d/1ZsFlyzCdinvnyqlvBUyy4gZXi0SdOyxg/view?usp=sharing" target="_blank">program</a> for high-achieving students taught by Google engineers. Configured 12 individual and 5 team coding projects in HTML, CSS, and JavaScript under the guidance of software engineers. Attended product design, resume development, and software engineering interview workshops. Delivered a collaborative final project presentation that included a live demonstration to Google employees and community leaders.</p>
+                <p><strong>Languages: </strong>HTML, CSS, JavaScript (API, Local Storage)</p><br>
+                <a href="projects.html"><button id="timeline_but">View Projects</button></a>
+            </div>
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_component">
+                <div class="timeline_date">July 2022</div>
+            </div>
+            <!-- 2 -->
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date_right">July 2022</div>
+            </div>
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <h3 class="timeline_title">Girls Who Code: Self-Paced Program</h3>
+                <p class="timeline_p">Earned an intermediate-level badge in Python for <a href="https://drive.google.com/file/d/1ZOiCoGWYg8TALqYta0vvmjATUty2-3AB/view?usp=sharing" target="_blank">Cyber Security</a> and <a href="https://drive.google.com/file/d/1sogyd4a032lsRWnqANOP-DBL0N4DlmCd/view?usp=sharing" target="_blank">Cryptography</a> and created 4 chatbox applications with Python.</p>
+                <p><strong>Languages: </strong>Python (Cybersecurity, Cryptography)</p><br>
+                <a href="projects.html"><button id="timeline_but">View Projects</button></a>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <h3 class="timeline_title">FreeCodeCamp: Responsive Web Design</h3>
+                <p class="timeline_p">Learned the basics of HTML and CSS. Completed 5 projects (including a tribute page, survey form, product landing page, technical documentation page, and personal portfolio webpage). Earned a <a href="https://freecodecamp.org/certification/XinYanChen/responsive-web-design" target="_blank">Responsive Web Design Certificate</a>.</p>
+                <p><strong>Languages: </strong>HTML, CSS</p><br>
+                <a href="projects.html"><button id="timeline_but">View Projects</button></a>
+            </div>
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_component">
+                <div class="timeline_date">May 2022</div>
+            </div>
+            <!-- 2 -->
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date_right">September 2021</div>
+            </div>
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <h3 class="timeline_title">AP Computer Science A</h3>
+                <p class="timeline_p">Learned to use Java. Made projects and games (including a number guessing game and ti-tac-toe game).</p>
+                <p><strong>Languages: </strong>Java</p><br>
+                <a href="projects.html"><button id="timeline_but">View Projects</button></a>
+            </div>
+            <div class="timeline_component timeline_component_bg timeline_component_bottom">
+                <h3 class="timeline_title">Intro to Python</h3>
+                <p class="timeline_p">Learned the basics of Python and how to utilize it to make chatboxes.</p>
+                <p><strong>Languages: </strong>Python</p><br>
+                <a href="projects.html"><button id="timeline_but">Browse Projects</button></a>
+            </div>
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+                <div class="timeline_point timeline_point_bottom"></div>
+            </div>
+            <div class="timeline_component timeline_component_bottom">
+                <div class="timeline_date">September 2020</div>
+            </div>
+        </div>
+        <h4>Find more at my <a href="https://www.linkedin.com/in/xinyanc" target="_blank">LinkedIn</a>.</h4>
+    </section>
+
+    <section id="resume">
+        <h1>Resume</h1>
+        <!-- <iframe id="embed_resume" src="https://drive.google.com/file/d/1z8pB5NnWBpFN2fcUjO-BAFs1En7uVxWj/view?usp=sharing" title="XinYan's Resume" allow="autoplay"></iframe> -->
+        <iframe id="embed_resume" title="XinYan's Resume" src="https://drive.google.com/file/d/1z8pB5NnWBpFN2fcUjO-BAFs1En7uVxWj/preview" width="640" height="480" allow="autoplay"></iframe>
+    </section>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <div id="fix">
+            <!-- <img src="https://lh3.googleusercontent.com/clKOdfKop1xflKV5Wurw0Q0BS9uS0d-Z8pX5REdJ9UqBvrI7ORsH17TtlDcI4D7wz-UxFx9BURnaCXJ42NR64GJUe-UG7obmTkyQD_-rhHBx7b0VMj9ZpSrWi44rJl0w7R6VPHz8=w2400" alt="XinYan" id="xinyan_img"> -->
+            <img src="https://lh3.googleusercontent.com/iM6mxe8OIb7af8KnNNv5xCYIDWmTcWIDEpBHNnoOu3wsrCAXRPxFG8Vy3VAPHeTbYeC7pUxwnmWc8_cfb7967GEB2jvCE_tdHd8fv6Vz2t8KWq2LKAGcZuXWZxvNITMnmDlR9FoNaA=w2400" alt="XinYan" id="xinyan_img">
+            <p>Hello! My name is XinYan. I am a freshman at New York University this fall, excited for opportunities to learn and gain experience. My passion is a combination of product design, software development, and passion projects. I am planning to pursue a career in tech and put my skills to use.</p>
+        </div>
+    </section>
+
+    <footer id="contactInfo">
+        <h3>Connect with me!</h3><br>
+        <h5>Email: xxinyan.chen.com  ||  xinyan.chen@nyu.edu</h5>
+        <div class="contactLinks">
+            <a id="linkedin" href="https://www.linkedin.com/in/xinyanc" target="_blank"><img id="linkedInLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="XinYan's LinkedIn Link"><br>LinkedIn</a>
+            <a id="gitHub" href="https://github.com/XinYanC?tab=repositories" target="_blank"><img id="gitHubLogo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="XinYan's GitHub Link"><br>GitHub</a>
+        </div>
+        
+
+
+    </footer>
+
+</body>
+
+</html>

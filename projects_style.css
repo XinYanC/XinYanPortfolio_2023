@@ -1,0 +1,176 @@
+#projects_sec{
+    padding: 8% 10% 10% 10%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif !important;
+}
+
+#proj_h1{
+    padding-top: 2%;
+    font-size: 275%;
+}
+
+.cardGrid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 2%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#google_cardGrid{
+    padding-top: 3%;
+}
+
+@media only screen and (max-width: 600px){
+    .cardGrid {
+        row-gap: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #proj_h1{
+        margin-top: 18%;
+        font-size: 220%;
+    }
+    .card, 
+    .gridCard {
+        width: 90%;
+        border: 1px solid black;
+        /* max-height: 90%; */
+        padding: 10%;
+        border-radius: 15px;
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 601px){
+    .cardGrid {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        gap: 2%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #proj_h1{
+        margin-top: 18%;
+    }
+    .card, 
+    .gridCard {
+        width: 90%;
+        border: 1px solid black;
+        /* max-height: 90%; */
+        padding: 10%;
+        border-radius: 15px;
+        background-color: white;
+    }
+}
+
+
+.gridCard {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 3px 4px rgb(150, 150, 150);
+}
+
+.gridCard:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s ease 0s;
+    box-shadow: 7px 9px 9px rgb(150, 150, 150);
+}
+
+.card_inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card,
+.gridCard {
+    width: 75%;
+    border: 1px solid black;
+    /* min-height: 80%; */
+    padding: 7%;
+    border-radius: 15px;
+    background-color: white;
+}
+.contentCluster{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentCluster a{
+    text-decoration: none;
+    color: blue;
+}
+
+#projects h1{
+    font-size: 300%;
+    padding-top: 7%;
+}
+
+#freeCodeCamp_tit, #cssi_tit, #kwk_tit, #gwc_tit, #java_tit, #python_tit, #prototyping_tit {
+    font-size: 200%;
+    padding-top: 13%;
+    padding-bottom: 3%;
+}
+
+#project_navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+#java_but, #python_but, #prototyping_but{
+    margin-top: 2.5%;
+    padding: 1%;
+    width: 100%;
+    font-family: 'Barlow', sans-serif !important;
+    font-size: 115%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(162, 123, 181);
+    color: white;
+    text-align: left;
+}
+
+#cssi_but, #freeCodeCamp_but, #kwk_but, #gwc_but{
+    margin-top: 2.5%;
+    padding: 1%;
+    width: 100%;
+    font-family: 'Barlow', sans-serif !important;
+    font-size: 115%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #336B87;
+    color: white;
+    text-align: left;
+}
+
+#cssi_but:hover, #freeCodeCamp_but:hover, #kwk_but:hover, #gwc_but:hover, #java_but:hover, #python_but:hover, #prototyping_but:hover{
+    transform: translateY(5px);
+    transition: all 0.2s ease 0s;
+    box-shadow: 3px 3px 3px rgb(150, 150, 150);
+}
+
+#ver-img{
+    width: 30%;
+}
+
+#sq-img{
+    width: 70%;
+}
+
+#ver_block{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    text-decoration: none; 
+}
+#two_button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
