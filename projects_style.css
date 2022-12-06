@@ -162,6 +162,8 @@
 
 #sq-img{
     width: 70%;
+    display: flex;
+    justify-content: center;
 }
 
 #ver_block{
