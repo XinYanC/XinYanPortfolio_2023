@@ -317,8 +317,13 @@
 
 
 #xinyan_img{
-    width: 25%;
-    padding-right: 5%;
+    width: 20%;
+    /* padding-right: 5%; */
+    border-radius: 50%;
+}
+#about_text{
+    padding-left: 5%;
+    line-height: 1.5;
 }
 #about{
     padding: 15% 20%;
